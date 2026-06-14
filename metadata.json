@@ -1,0 +1,6 @@
+{
+  "name": "Armenian Spanish Verb Trainer",
+  "description": "An interactive learning application to study Spanish verbs with Armenian translations, verb conjugation games, and interactive reading texts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

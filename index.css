@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vibrant-orange: #FF6321;
+  --color-vibrant-blue: #60A5FA;
+  --color-vibrant-cream: #FFFBF5;
+  --color-vibrant-gray: #F0F0F0;
+  --color-vibrant-charcoal: #2D2D2D;
+}
+
+@layer utilities {
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom styling for card flip */
+.perspective-1000 {
+  perspective: 1000px;
+}
